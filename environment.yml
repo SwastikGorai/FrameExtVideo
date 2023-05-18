@@ -1,6 +1,6 @@
 name: test-env
-dependencies
--pip:
-  -e .
-  -r requirements.txt
-```
+dependencies:
+  - pip
+  - pip:
+    - -e .
+    - -r requirements.txt
